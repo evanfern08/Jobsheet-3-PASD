@@ -12,12 +12,12 @@ public class DosenDemo09 {
             System.out.println("Masukan data dosen ke-" +(i+1));
             System.out.print("Kode                        :");
             kode = sc.nextLine();
-            System.out.print("Nama                          :");
+            System.out.print("Nama                        :");
             nama = sc.nextLine();
-            System.out.print("Jenis Kelamin (L/P)              :");
+            System.out.print("Jenis Kelamin (L/P)         :");
             char jk = sc.nextLine().charAt(0);
             boolean jenisKelamin = (jk == 'L' || jk == 'l');
-            System.out.print("Usia                          :");
+            System.out.print("Usia                        :");
             dummy = sc.nextLine();
             usia = Integer.parseInt(dummy);
             System.out.println("-----------------------------------------");
