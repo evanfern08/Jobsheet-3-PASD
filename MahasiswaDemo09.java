@@ -10,17 +10,17 @@ public class MahasiswaDemo09 {
             arrayOfMahasiswa09[i] = new Mahasiswa09();
 
             System.out.println("Masukkan Data Mahasiswa ke-" +(i+1));
-             //System.out.print("NIM     :");
-             //arrayOfMahasiswa09[i].nim = sc.nextLine();
-             //System.out.print("Nama    :");
-             //arrayOfMahasiswa09[i].nama = sc.nextLine();
-             //System.out.print("Kelas   :");
-             //arrayOfMahasiswa09[i].kelas = sc.nextLine();
-             //System.out.print("IPK     :");
-             //dummy = sc.nextLine();
-             //arrayOfMahasiswa09[i].ipk = Float.parseFloat(dummy);
-             //arrayOfMahasiswa09[i].cetakInfo();
-            //System.out.println("------------------------------------");
+             System.out.print("NIM     :");
+             arrayOfMahasiswa09[i].nim = sc.nextLine();
+             System.out.print("Nama    :");
+             arrayOfMahasiswa09[i].nama = sc.nextLine();
+             System.out.print("Kelas   :");
+             arrayOfMahasiswa09[i].kelas = sc.nextLine();
+             System.out.print("IPK     :");
+             dummy = sc.nextLine();
+             arrayOfMahasiswa09[i].ipk = Float.parseFloat(dummy);
+             arrayOfMahasiswa09[i].cetakInfo();
+             System.out.println("------------------------------------");
 
         }
 
