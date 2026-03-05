@@ -36,8 +36,8 @@ public class MataKuliahDemo09 {
                 System.out.println("-----------------------------------------");
              }
 
-             for (int i=0; i<jumlah; i++) {
-                arrayOfMatakuliah09[i].cetakInfo();
+             for (int k=0; k<jumlah; k++) {
+                arrayOfMatakuliah09[k].cetakInfo();
              }
         }
     }
